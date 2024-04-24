@@ -61,14 +61,14 @@ const Module = () => {
             Ship, Manage, Track, Deliver
           </h1>{" "}
           {/* Responsive text size */}
-          <div className="flex justify-center items-center h-screen relative bottom-60 text-xl font-bold">
-            <div className="flex flex-col w-40 h-40 text-black text-justify bg-white items-center justify-center">
+          <div className="flex justify-center  items-center h-screen relative bottom-60 text-xl font-bold">
+            <div className="flex flex-col w-40 h-40 text-black text-justify bg-white items-center justify-center rounded-lg">
               <BsCalculatorFill /> RATE&SHIP{" "}
             </div>
-            <div className="flex flex-col justify-center items-center  w-52 h-52 text-justify bg-violet-700 text-white ">
+            <div className="flex flex-col justify-center items-center  w-52 h-52 text-justify bg-violet-700 text-white rounded-lg">
               <RiGiftFill /> TRACK
             </div>
-            <div className="flex flex-col  w-40 h-40 text-black  text-justify bg-white items-center justify-center">
+            <div className="flex flex-col  w-40 h-40 text-black  text-justify bg-white items-center justify-center rounded-lg">
               <FaLocationDot /> LOCATIONS
             </div>
           </div>
@@ -84,7 +84,7 @@ const Module = () => {
           </div>
        
         </header>
-        <p className="text-black absolute inset-y-0 -bottom-34 font-bold text-xl">
+        <p className="text-black absolute inset-y-0 inset-128 -bottom-34  font-bold text-xl">
   MULTIPLE TRACKING NUMBERS | NEED HELP?
 </p>
       </main>
