@@ -84,7 +84,7 @@ const Module = () => {
           </div>
        
         </header>
-        <p className="text-black m-44rem">
+        <p className="text-black absolute top-64 bottom-0 left-5 right-5 text-xl">
             MULTIPLE TRACKING NUMBERS | NEED HELP?
           </p>
       </main>
