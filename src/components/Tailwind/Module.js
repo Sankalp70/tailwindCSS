@@ -62,15 +62,19 @@ const Module = () => {
           </h1>{" "}
           {/* Responsive text size */}
           <div className="flex justify-center items-center h-screen relative bottom-60 text-xl font-bold">
-            <div className="flex  w-40 h-40 text-black text-justify bg-white items-center justify-center">
+            <div className="flex flex-col w-40 h-40 text-black text-justify bg-white items-center justify-center">
             <BsCalculatorFill /> RATE&SHIP{" "} 
             </div>
-            <div className="flex  w-52 h-52 text-justify bg-violet-700 text-white items-center justify-center">
+            <div className="flex flex-col justify-center items-center  w-52 h-52 text-justify bg-violet-700 text-white ">
             <RiGiftFill />   TRACK 
             </div>
-            <div className="flex  w-40 h-40 text-black  text-justify bg-white items-center justify-center">
+            <div className="flex flex-col  w-40 h-40 text-black  text-justify bg-white items-center justify-center">
             <FaLocationDot />    LOCATIONS
             </div>
+          </div>
+          <div className="flex absolute top-64 right-12 text-center justify-center items-center mt-64">
+            <input className="w-500px h-20"  type="text" placeholder="TRACKING ID"/>
+            <button className="w-40 h-20 bg-orange-800">TRACK</button>
           </div>
         </header>
       </main>
