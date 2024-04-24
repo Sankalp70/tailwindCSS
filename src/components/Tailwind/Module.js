@@ -58,11 +58,11 @@ const Module = () => {
             Ship, Manage, Track, Deliver
           </h1>{" "}
           {/* Responsive text size */}
-          <div className="flex ml-49">
+          <div className="flex justify-center items-center h-screen ">
             <div className="flex  w-40 h-40 text-black text-3xl text-justify bg-white items-center justify-center">
               RATE&SHIP{" "}
             </div>
-            <div className="flex  w-52 h-52 text-black text-3xl text-justify bg-violet-700 text-white items-center justify-center">
+            <div className="flex  w-52 h-52 text-3xl text-justify bg-violet-700 text-white items-center justify-center">
               TRACK
             </div>
             <div className="flex  w-40 h-40 text-black text-3xl text-justify bg-white items-center justify-center">
