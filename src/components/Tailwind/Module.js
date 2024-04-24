@@ -11,9 +11,9 @@ import { FaLocationDot } from "react-icons/fa6";
 const Module = () => {
   return (
     <div className="relative w-full h-auto">
-      {" "}
+      {""}
       {/* Container with relative positioning and flexible height */}
-      <ul className="flex flex-wrap text-xl md:text-2xl space-x-6 md:space-x-12 p-4 bg-violet-800 text-white list-none w-full">
+      <ul className="flex flex-wrap text-xl md:text-2xl space-x-6 md:space-x-11 p-4 bg-violet-800 text-white list-none w-full">
         {" "}
         {/* Responsive layout */}
         <li className="w-auto md:w-16">
@@ -63,20 +63,30 @@ const Module = () => {
           {/* Responsive text size */}
           <div className="flex justify-center items-center h-screen relative bottom-60 text-xl font-bold">
             <div className="flex flex-col w-40 h-40 text-black text-justify bg-white items-center justify-center">
-            <BsCalculatorFill /> RATE&SHIP{" "} 
+              <BsCalculatorFill /> RATE&SHIP{" "}
             </div>
             <div className="flex flex-col justify-center items-center  w-52 h-52 text-justify bg-violet-700 text-white ">
-            <RiGiftFill />   TRACK 
+              <RiGiftFill /> TRACK
             </div>
             <div className="flex flex-col  w-40 h-40 text-black  text-justify bg-white items-center justify-center">
-            <FaLocationDot />    LOCATIONS
+              <FaLocationDot /> LOCATIONS
             </div>
           </div>
-          <div className="flex absolute top-64 right-12 text-center justify-center items-center mt-64">
-            <input className="w-500px h-20"  type="text" placeholder="TRACKING ID"/>
-            <button className="w-40 h-20 bg-orange-800">TRACK</button>
+          <div className="flex text-black absolute top-64 right-24 text-center justify-center items-center mt-64">
+            <input
+              className="flex-row w-500px h-20"
+              type="text"
+              placeholder="TRACKING ID"
+            />
+            <button className="flex-row w-40 h-20 font-medium bg-orange-800">
+              TRACK
+            </button>
           </div>
+       
         </header>
+        <p className="text-black m-44rem">
+            MULTIPLE TRACKING NUMBERS | NEED HELP?
+          </p>
       </main>
     </div>
   );

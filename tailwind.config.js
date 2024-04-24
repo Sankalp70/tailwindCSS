@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      padding: {
+      margin: {
         "1/2": "50%",
         "1/4": "25%",
         "1/5": "20%",
@@ -13,7 +13,7 @@ module.exports = {
         "3/4": "75%",
         "4/5": "80%",
         96: "29rem", // Example for pl-96
-        117: "34rem",
+        117: "44rem",
       },
       width: {
         "500px": "500px", // Custom width class
