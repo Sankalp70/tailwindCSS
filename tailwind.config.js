@@ -13,6 +13,10 @@ module.exports = {
         "3/4": "75%",
         "4/5": "80%",
         96: "29rem", // Example for pl-96
+        117: "34rem",
+      },
+      width: {
+        "500px": "500px", // Custom width class
       },
     },
   },
